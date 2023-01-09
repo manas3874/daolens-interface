@@ -60,7 +60,7 @@ function DashboardContent({ children }: Props) {
         <div className={styles.table_container}>
           <div className={styles.table_header}>
             <span>Asset</span>
-            <span>{currentFlow === "lend" ? "Balance" : "Debt"}</span>
+            <span>{currentFlow === "lend" ? "Lent amount" : "Debt"}</span>
             <span>Annual Interest</span>
             <span></span>
           </div>
