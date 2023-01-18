@@ -301,11 +301,12 @@ export const DetailsHFLine = ({
   if (healthFactor === "-1" && futureHealthFactor === "-1") return null;
   return (
     <Row
-      caption={<Trans>Health factor</Trans>}
+      caption={<Trans >Health factor</Trans>}
       captionVariant="description"
       mb={4}
       align="flex-start"
       width={"100%"}
+
     >
       <Box sx={{ textAlign: "right" }}>
         <Box

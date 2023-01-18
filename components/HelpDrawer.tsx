@@ -64,6 +64,7 @@ function HelpDrawer() {
           >
             <Tab
               label="General"
+              id="help-section-single-tab"
               sx={{
                 textDecoration: "none",
                 color: "#fff",
@@ -72,6 +73,7 @@ function HelpDrawer() {
             />
             <Tab
               label="Lend"
+              id="help-section-single-tab"
               sx={{
                 textDecorationStyle: "none",
                 color: "#fff",
@@ -80,6 +82,7 @@ function HelpDrawer() {
             />
             <Tab
               label="Borrow"
+              id="help-section-single-tab"
               sx={{
                 textDecoration: "none",
                 color: "#fff",

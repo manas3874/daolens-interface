@@ -161,3 +161,17 @@ input[type=number] {
   margin-top: 31px;
   box-shadow: 0px 10px 45px 9px rgba(107, 53, 118, 0.16), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  margin-right: 5px;
+}
+
+#market-dropdown-container {
+  padding-left: 5px;
+  border-radius: 4px;
+}
+
+#help-section-single-tab {
+  border-radius: 4px;
+
+}

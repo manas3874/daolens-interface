@@ -592,6 +592,7 @@ function ChooseBorrowingAsset() {
                   color: "#31C48D",
                   display: "inline-flex",
                   alignItems: "flex-start",
+                  marginTop: "8px",
                 }}
               >
                 <DetailsHFLine

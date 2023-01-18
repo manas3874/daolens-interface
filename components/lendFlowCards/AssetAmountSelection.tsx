@@ -73,7 +73,7 @@ function AssetAmountSelection({
             id="demo-simple-select-standard-label-1"
             sx={{ color: "#ffffff" }}
           >
-            Choose asset to lend
+            <span style={{paddingLeft:"12px"}}>Choose asset to lend</span>
           </InputLabel>
           <Select
             labelId="demo-simple-select-standard-label-1"
