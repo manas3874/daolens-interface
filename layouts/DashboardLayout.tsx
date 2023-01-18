@@ -158,7 +158,7 @@ function DashboardLayout({ children }: Props) {
                     </InputLabel>
                     <Select
                       labelId="demo-simple-select-standard-label"
-                      id="demo-simple-select-standard"
+                      id="market-dropdown-container"
                       value={currentMarket}
                       onChange={(e) =>
                         setCurrentMarket(
@@ -380,7 +380,7 @@ function DashboardLayout({ children }: Props) {
                         </InputLabel>
                         <Select
                           labelId="demo-simple-select-standard-label"
-                          id="demo-simple-select-standard"
+                          id="market-dropdown-container"
                           value={currentMarket}
                           onChange={(e) =>
                             setCurrentMarket(

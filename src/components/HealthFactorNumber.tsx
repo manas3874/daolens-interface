@@ -40,7 +40,7 @@ export const HealthFactorNumber = ({
       data-cy={'HealthFactorTopPannel'}
     >
       {value === '-1' ? (
-        <Typography variant="secondary14" color={palette.success.main}>
+        <Typography variant="secondary14" color={palette.success.main} sx={{fontSize:"1.5rem"}}>
           ∞
         </Typography>
       ) : (

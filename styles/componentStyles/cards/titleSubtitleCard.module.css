@@ -1,6 +1,7 @@
 .wrapper {
     /* background-image: linear-gradient(30deg, #30BAC6, #B6509E) !important; */
     padding: 1px 4px;
+    border-radius: 4px;
 }
 
 .wrapper:hover {
@@ -18,6 +19,7 @@
     cursor: pointer;
     /* width: calc(100% - 4px);
     height: calc(100% - 4px); */
+    border-radius: 4px;
 }
 
 .container:hover {
